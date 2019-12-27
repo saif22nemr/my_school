@@ -1,0 +1,1187 @@
+
+/*Start Framework*/
+body{
+/*    background-color: #EEE;*/
+    font-family: 'Cairo', sans-serif;
+    font-size:15px;
+}
+.main-container{
+    max-width:1200px;
+    
+    margin:auto;
+}
+h1,h2,h3,h4{
+    font-family: 'Cairo';
+}
+a{
+    color:#FFF;
+}
+a:hover{
+    text-decoration: none;
+    color:#CCC;
+}
+.editButton .btn{
+    padding:2px 10px;
+    margin:3px 4px;
+    margin-right:0;
+}
+.btn-center{
+    width:150px;
+    margin:10px auto;
+}
+/*End Framework*/
+
+/*Start Login Page*/
+.regster{
+    background-image: url(../img/bg-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+}
+.container .login{
+    max-width:500px;
+    max-height:400px;
+    background-color:#fdfdfd;
+    margin: auto;
+    margin-top:100px;
+    border:1px solid #CCC;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px #CCC;
+    font-size:16px;
+}
+.login h1{
+    padding:10px;
+    padding-bottom:20px;
+    border:1px solid #CCC;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom:35px;
+    background-color: #EEE;
+    font-weight:bold;
+    color:#3a3a3a;
+}
+.login > input{
+    min-width:90%;
+    padding:10px;
+    margin:15px auto;
+    border:1px solid #CCC; 
+    border-radius: 5px;
+    display: block;
+}
+.login .remmber{
+    padding:10px;
+    margin:10px 15px;
+    overflow: hidden
+}
+.login .remmber > a{
+    color:#000;
+    float:right;
+}
+.login .remmber > a:hover{
+    text-decoration: none;
+    color:#525252;
+}
+.login .remmber .check-box{
+    display: inline-block;
+    float: left;
+    
+}
+.login input[type=submit]{
+    color:#FFF;
+    font-size:17px;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+.ff > input{
+    letter-spacing: normal;
+}
+.regster{
+  position: relative;
+  width: 100%;
+  height:780px;
+  background: url("../img/bg-pattern.png");
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to right, rgba(116, 116, 191, 0.8), rgba(52, 138, 199, 0.8));
+  background: url("../img/bg-pattern.png"), linear-gradient(to right, rgba(116, 116, 191, 0.8), rgba(52, 138, 199, 0.8));
+}
+.regster .box{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 25px;
+    background-color:#fff;
+    border-radius: 15px;
+    width: 350px;
+    height: 390px;
+}
+.regster .head h2 {
+   font-size: 25px;
+   font-weight: 700;
+   background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #0083B0, #00B4DB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.regster .head hr{
+    width: 15%;
+    height: 2px;
+    background-color:#0083B0;  
+}
+.box .form {
+    margin-top: 25px;
+}
+.box .form .input {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #75a3a3;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: : 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: : 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.box .form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #888;
+    font-size: 15px;
+    letter-spacing:normal;
+    font-family: 'Cairo', sans-serif; /* Firefox */
+}
+.box .form .remmber {
+    color: #888;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.box .form .btn-3 {
+    margin-top: 20px;
+ 
+    padding: 10px 20px;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: : 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: : 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    border: none;
+}
+/*End Login Page*/
+
+/*Start Setting Navbar*/
+nav{
+    background-color: #007bda;
+    color:#FFF !important;
+    position:relative;
+}
+nav .works{
+    margin:0 20px;
+    
+}
+nav .works .navbar-toggler{
+    position:absolute;
+    top:15px;
+    right:8px;
+    padding:0px;
+    width: 30px;
+    height: 30px;
+}
+.navbar-dark .navbar-toggler-icon{
+    width:25px;
+    height:25px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:rgba(255, 255, 255, 0.8);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:rgba(255, 255, 255, 0.7);
+}
+.mr-auto{
+    margin:0 !important;
+}
+.work ul{
+    margin-right:15px !important;
+    margin-left:10px !important;
+    padding-right:10px;
+}
+.works .username{
+    position:absolute;
+    top:10px;
+    left:16px;
+}
+.work .nav-item .dropdown-menu > a{
+    float:right
+}
+/*End Setting Navbar*/
+
+/*Start Student Style*/
+
+.setting .student-search{
+    padding:10px 0;
+    display: block;
+    width:100%;
+}
+.setting .student-search > input[type=text]{
+    padding:10px;
+    border:1px solid #CCC;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #CCC;
+    float:right;
+}
+.student{
+    font-size:14px !important;
+}
+.student .contents{
+    display:block;
+}
+.student .contents > a{
+    padding:15px 20px;
+    float:right;
+    margin:10px;
+    background-color:#999;
+    border:1px solid #CCC;
+    border-radius:10px;
+}
+.studentButton > a {
+    padding:2px 10px;
+    margin-left: 5px;
+    margin-bottom:5px;
+    font-size:16px;
+}
+.link-student{
+    color:#212529;
+}.link-student:hover{
+    color:#717171;
+}
+.not-active{
+    background-color: rgba(245, 137, 137, 0.2);
+}
+.popPage{
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color:rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+}
+.popPage .scontainer{
+    width:40%;
+    margin:auto;
+    margin-top:300px;
+    padding:10px;
+    background-color:aliceblue;
+}
+/*Start Profile Student*/
+.profileTab{
+    border:1px solid #CCC;
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.profileTab > ul{
+    background-color:#bdbdbd;
+    padding;10px;
+    margin-bottom: 30px
+}
+.profileTap .content{
+    margin-right: 50px;
+}
+.profileStudent .profile{
+    width:90%;
+    margin:20px auto;
+}
+.profileStudent .profile > img{
+    width:20%;
+    min-width:100px;
+    display: block;
+    margin:auto;
+    margin-bottom:40px;
+    border-radius:20px;
+}
+.profileStudent .profile .studentInfo .row{
+    margin-bottom: 20px;
+}
+.profileStudent .profile .studentInfo .col > div{
+    display: inline-block;
+}
+.profileStudent .profile .studentInfo .col > div:first-child{
+    font-weight: bold;
+    font-size:16px;
+}
+.profileStudent .profile .studentInfo .col > div:last-child{
+    font-size:14px;
+    font-weight: bold;
+    color:#444;
+}
+.alert-not{
+    color:#888;
+}
+.studentCourse .adit .edit{
+    width:20%;
+    min-width:100px;
+    margin:10px 40%;
+}
+.displayNone{
+    display: none;
+}
+.studentCourse .fixedSection{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+}.fixedSection .fixedContainer{
+    width:70%;
+    margin:150px auto;
+    padding:20px;
+    border:1px solid #CCC;
+    box-shadow: 2px 2px 10px #FFF;
+    border-radius:10px;
+    background-color: #FFF;
+}
+form .feat:first-child{
+    width:150px;
+    float: left;
+}
+form .feat:last-child{
+    width:300px;
+    float:right;
+}
+
+.absence-info .info{
+    margin:20px 150px;;
+}
+.absence-info .info > div{
+    display: inline-block;
+}
+.absence-info .info > div:first-child{
+    float: right;
+}
+.absence-info .info > div:last-child{
+    float: left;
+}
+.absence-info .info > div:nth-child(2){
+    margin-right:10%;
+}
+/*End Profile Student*/
+
+
+/*Start Edit Student*/
+.editStudent{
+    height:auto;
+}
+.editStudent .add .profile{
+    width:20%;
+    min-width:100px;
+    margin:20px 40%;
+}
+.editStudent .add .profile > img{
+    width:90%;
+    margin:10px 5%;;
+    border:1px solid #CCC;
+    border-radius:10px;
+    border-radius: 2px 3px 10px #CCC;
+}
+.formContain{
+    display: block;
+    width:100%;
+    margin-top:100px;
+}
+.formContain .row{
+    padding-right:30px;;
+}
+/*End Edit Student*/
+.notExist{
+    padding:20px;
+    margin:20px auto;
+    margin-top:150px;
+    width:50%;
+    min-width:200px;
+}
+.notExist > i{
+    width:30%;
+    display: block;
+    margin:20px auto !important;
+    font-size: 120px;
+}
+span.showin{
+    display: none;
+}
+span.showin.active{
+    display: block;
+}
+
+/*End Student Style*/
+
+.sb1 {
+    background: #002147;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9999;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.48);
+}
+.app-search input {
+    position: relative;
+    margin: 12px 15px 8px 5px;
+    font-size: 13px;
+    color: #626773;
+    padding-left: 20px;
+    padding-right: 40px;
+    background: transparent;
+    border: 1px solid rgba(122, 125, 132, 0.15);
+    box-shadow: none;
+    border-radius: 30px;
+    height: 36px;
+    font-weight: 600;
+    width: 100%;
+}
+.app-search a {
+    position: absolute;
+    top: 18px;
+    right: 36px;
+    color: #7a7d84;
+}
+.top-not-cen {
+    margin: 0 auto;
+    display: table;
+    padding-top: 15px;
+}
+.btn-noti {
+    width: 35px;
+    height: 23px;
+    top: 18px;
+    display: initial !important;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.btn-noti sup{
+    position: absolute;
+    border-radius: 10px;
+    min-width: 15px;
+    background: #4CAF50;
+    color: #fff;
+    line-height: 14px;
+    padding: 0px 2px;
+    font-size: 11px;
+    box-shadow: 0 0 0 1px #3d793f;
+    text-align: center;
+    top: 15px;
+}
+.top-user-pro {
+    padding: 18px 20px;
+    color: #fff;
+    float: right;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+}
+.dropdown-menu a i{
+    margin: 10px;
+    color: #3d793f;
+}
+.top-user-pro:foucs{
+    border: none;
+}
+
+.top-user-pro img {
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 35px;
+    border: 2px solid #a1adb3;
+}
+ .logo{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-left: 2rem;
+}
+ .logo img{
+    width: 100%;
+}
+/********************end nav_top ***********/
+/*******************start Content **************/
+.Content{
+    margin-top: 50px;
+    
+}
+.Content nav{
+    background: #002147;
+    height: 100%;
+    padding: 25px;
+    
+}
+.Content nav .first{
+    background-color: #fff;
+}
+.Content nav ul{
+    list-style: none;
+}
+.details {
+    padding: 40px;
+    background: #e3e8ea;
+}
+.sb2-2-2 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.sb2-2-2 ul {
+    padding: 0px;
+    margin-bottom: 0px;
+
+}
+.sb2-2-2 ul li {
+    list-style-type: none;
+    float: left;
+    padding-right: 5px;
+}
+.sb2-2-2 ul .right{
+    margin-left: 650px;
+}
+.active-bre:before {
+    content: "/";
+    padding: 0 5px;
+    color: #333;
+}
+.sb2-2-2 ul li a {
+    color: #495d65;
+    vertical-align: middle;
+}
+.sb2-2-2 ul li a:hover{
+    text-decoration: none;
+}
+.page-back a {
+    background: #f44336;
+    color: #fff !important;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+/*************start side_nav ****/
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    text-align: right;
+    box-shadow: 0px 0px 10px -5px;
+    border-left: 1px solid #ccc;
+}
+.sidebar .info img{
+    width:100px;
+    height:100px;
+    margin-top:20px;
+    border-radius: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.sidebar ul li{
+    border-radius: 0 !important;
+    border-left: 0;
+    border-right: 0;
+    padding-top:0px;
+    padding-bottom:0;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #f44336;
+    border-color: #f44336;
+}
+.sidebar .list-group-item > .link{
+    color:#000;
+    display: block;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.sidebar ul li:hover{
+    cursor: pointer;
+}
+.sidebar ul li i{
+    float: left;
+    line-height: 25px;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.sidebar ul li:hover i,
+.sidebar ul li:focus i
+{
+    transform: rotate(-90deg);
+}
+.dropdown-sidebar{
+    position: relative !important;
+    transform: translate3d(-1px, -0px, 0px) !important;
+    width: 100%;
+    border: 0;
+    text-align: right;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    display: none;
+}
+.dropdown-sidebar .dropdown-item{
+    padding: 10px;
+    padding-right: 20px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.dropdown-sidebar .dropdown-item:hover{
+    background: #f44336
+    color: #fff;
+}
+.dropdown-sidebar .dropdown-item span{
+    float: left;
+    font-weight: bold;
+}
+/***** End Sidebar *****/
+
+.sb2-1 {
+    float: left;
+    width: 20%;
+    background: #263238;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.sb2-13 {
+    background: #002147;
+}
+.sb2-13 ul {
+    /* padding: 20px; */
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.sb2-13 ul li {
+    list-style-type: none;
+    /* border-bottom: 1px solid #303b40; */
+    /* padding: 3px 20px; */
+}
+.sb2-13 ul li a {
+    display: block;
+    font-size: 13.5px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #002958;
+    padding: 12px 20px;
+    background: #002147;
+}
+.sb2-13 ul li a i {
+    margin-right: 8px;
+    width: 16px;
+}
+.sb2-13 ul li a:after {
+    font-family: FontAwesome;
+    content: "\f105";
+    font-size: 16px;
+    display: block;
+    position: absolute;
+    margin-top: -15px;
+    right: 20px;
+    font-size: 12px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -o-transition: -webkit-transform .2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+}
+.sb2-2-1 {
+    background: #fff;
+    padding: 25px;
+    text-align: right;
+}
+.sb2-2-1 h2 {
+    margin-top: 0px;
+}
+p {
+    font-size: 15px;
+    color: #636363;
+    font-weight: 400;
+    line-height: 24px;
+}
+.db-2 {
+    /* background: #e3e8ea; */
+    /* padding: 25px; */
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.db-2 ul {
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.db-2 ul li {
+    width: 25%;
+    float: left;
+    list-style-type: none;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+.dash-b-1  {
+    background: url(../img/2.jpg) no-repeat center;
+    background-size: cover;
+}
+.dash-b-2 {
+    background: url(../img/goals-3.jpeg) no-repeat center;
+    background-size: cover;
+}
+.dash-b-3 {
+    background: url(../img/boys-circle-daylight-1164572.jpg) no-repeat center;
+    background-size: cover;
+}
+.dash-b-4{
+    background: url(../img/children-class-classroom-1720186.jpg) no-repeat center;
+    background-size: cover;
+}
+.dash-book {
+    padding: 30px 25px 35px 25px;
+    text-align: center;
+    margin: 2px;
+    position: relative;
+    overflow: hidden;
+}
+.dash-book h4 {
+    font-size: 74px;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}
+.dash-book h5 {
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 25px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.dash-book a {
+    border: 1px solid #021f40;
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 2px;
+    background: #002147;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 26px;
+}
+/*
+.dash-b-1 h4 {
+    color: #00BCD4;
+}
+.dash-b-2 h4 {
+    color: #00d4ca;
+}
+.dash-b-3 h4 {
+    color: #FFC107;
+}
+*/
+.dash-book h4 {
+    color: #FFC107;
+}
+/*Start Event*/
+.search{
+    width:300px;
+    margin:20px auto;
+}
+.manageEvent > .filter > form{
+    overflow: hidden;
+    margin:10px 30px;
+}
+.add .titel > a, .add .titel > form > input[type=submit] {
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    box-shadow: 2px 1px 10px #0044FF;
+}
+.events > form{
+    width:100%;
+    padding:10px 30px;
+    margin-top: 30px;
+}
+.eventInfo{
+    width:70%;
+    margin:10px auto;
+    margin-bottom: 30px;
+    display: block;
+    overflow: hidden;
+}
+.eventInfo > span:first-child{
+    float:right;
+}
+.eventInfo > span:last-child{
+    float:left;
+}
+.eventInfo > span > span{
+    font-weight: bold;
+}
+.eventDetails{
+    margin:10px 20px;
+}
+.eventDetails > h5{
+    font-weight:bold;
+    color:#5a5a5a;
+}
+.eventDetails > p{
+    margin-right:40px;
+}
+/*End Event*/
+
+
+/*start manage student*/
+.student .manage-student{
+    display: block;
+    overflow: hidden; 
+    margin:20px;
+}
+.student .manage-student .show{
+    display: inline-block
+}
+.listOfAbsence .table tbody td{
+    padding:5px 10px;
+}
+.part1 > div{
+    width:500px;
+    margin:10px auto;
+}
+.part1 .fat{
+    display: inline-block;
+    width:30%;
+    margin:5px 1%;
+    text-align: center;
+}
+/*end manage student*/
+
+
+
+
+
+
+
+
+
+
+/********************************************************************************************/
+
+
+
+
+.add{
+     background: #fff;
+     box-shadow: 10px 7px 13px #CCC;
+     text-align: right;
+     padding-bottom: 150px;
+}
+.add .adit .table thead tr th a{
+    color:#000;
+}
+.add .adit .table thead tr th a:hover{
+/*    color:#888;*/
+}
+.add .titel {
+    background-color:#002147;
+    padding: 15px;
+    color: #fff;
+    position: relative
+}
+.add .titel > h4{
+    display: inline;
+}.add .titel > a{
+    float:left;
+    position:absolute;
+    top:10px;
+    left: 15px;
+    border-radius:10px;
+    padding:5px 20px;
+    box-shadow: 2px 1px 10px #0044FF;
+}
+.add .titel > a:hover{
+    box-shadow: 2px 4px 10px #0044FF;
+}
+.add .add_form{
+    margin: 50px;
+    
+}
+.add .add_form input{
+    margin: 20px;
+}
+.add .add_form .btn{
+   background: #f44336;
+    border-color: #f44336;
+}
+
+
+/*Start Manage Semester*/
+.float-right{
+    float:right;
+}
+.semester{
+    background: #FFF;
+    padding:25px;
+}
+.semester .add-semester{
+    width:30%;
+    margin:20px 35%;;
+}
+.editSemester{
+    width:80%;
+    margin:20px 10%;;
+}
+.editSemester input[type=text]{
+    margin:20px 0;
+}
+.editSemester form select,
+.semester .add-semester form select{
+    padding:5px;
+    display: inline-block;
+    margin:15px auto;
+}
+.semester .row .col{
+    border:1px solid #CCC;
+    padding:10px;
+    float:right;
+    height: auto !impotant;
+}
+.semester .semester-link{
+    color:#000;
+    background: none;
+    border:none;
+    cursor: pointer;
+}
+.semester .semester-link:hover{
+    color:#999;
+}
+.semester .main-name .col{
+    background-color:#EEE;
+}
+.semester .row .col input.btn{
+    padding:5px 10px;
+    margin:5px;
+    font-size:14px;
+}
+.semester .card-body .secondSemester{
+    width:30%;
+    min-width:150px;
+    margin:10px 35%; 
+}
+.semesterForm{
+    padding:20px;
+}.semesterForm .addTeacherToCourse{
+    padding:30px 0
+}
+.semesterForm .btn-primary,
+.btn-center{
+    width:20%;
+    margin:20px 40%;
+}
+.card{
+    border:1px solid #bdbdbd;
+    margin:20px 10px;
+}
+.card-header{
+    background-color:#021f40;
+    font-weight: bold;
+    color:#FFF;
+}
+.profile{
+    padding:20px;
+}
+.profile > div{
+    margin-bottom:30px;
+}
+/*End Manage Semester*/
+
+/*Start Style Functions*/
+
+/*Start Redirect Function*/
+.errorPages{
+	position: absolute;
+	top:0;
+	left: 0;
+	background-color: rgba(0,0,0,0.8);
+	width:100%;
+	height:100%;
+}
+.mainContainer{
+	max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9e6e6;
+    border-radius: 20px;
+    border: 1px solid #ff9292;
+    margin-top: 15%;
+    box-shadow: 0 3px 15px #f9e6e6;
+}
+.mainContainer .hint{
+	color:#bbb;
+	font-family: monospace;
+	font-size:16px;
+}
+.errorPages .else{
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	box-shadow: 0 3px 20px #ffff63;
+}
+/*End Redirect Function*/
+
+/*End Style Functions*/
+
+/*Start Style Degree And Absence*/
+
+.filter > form{
+    width:100%;
+}
+.filter form > select{
+    width:200px;
+    float:right;
+}
+.filter form > a{
+    width:200px;
+    float:left;
+}
+.filter .filter-form select:last-child{
+    width:200px;
+    float:left;
+}
+.degree {
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+/*Start Add Degree*/
+.formContain .div1 h1{
+    width:200px;
+    margin:20px auto;
+}
+.choo{
+    margin-top:0;
+}
+.formContain .div1 .sub{
+    width:500px;
+    margin:10px auto;
+}
+.formContain .div1 .sub > div{
+    display: inline;
+    width:30%;
+    margin:2px 3.33%;
+}
+.sub23{
+    margin-top:20px;
+}
+.sub23 .filter{
+    width:100%;
+    height:40px;
+    display: block;
+    margin:30px 0;
+}
+.sub23 .filter > input{
+    width:250px;
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+.sub23 .filter > button{
+    width:200px;
+    float:left;
+    display: inline-block;
+    margin-left: 10px;
+}
+.sub23 .table thead,
+.table thead.color{
+    background-color:#ffff9f6e;
+}
+table .even{
+    background-color:#f5f4f4;
+}
+.sub23 .table  td{
+    padding:3px 10px;
+    font-size:14px;
+}
+.div3 .filter input{
+    width:30%;
+    margin:20px 35%;
+}
+.form1 td input{
+    width:100px;
+    border-radius:10px;
+    padding:1px 10px;
+}
+.div3 .btn-primary{
+    width:20%;
+    margin:20px 40%;
+}
+/*End Add Degree*/
+
+/*Start Abcense*/
+.part1 form{
+    width:70%;
+    margin:30px 15%;
+}
+.part1 form input{
+    width:200px;
+    display: inline-block
+}.part1 form input[type=submit]{
+    float:left
+}
+/*End Abcense*/
+/*End Style Degree And Absence*/
+
+/*Start Schedule Style*/
+.schedule {
+    margin:10px 30px;
+}
+.add-schedule .info-schedule{
+    width:70%;
+    margin:20px auto;
+}
+.add-schedule .info-schedule > div{
+    display: inline-block;
+    padding:10px;
+}
+.add-schedule .info-schedule > div > span:last-child{
+    font-size:14px;
+    color:#565656;
+}
+.add-schedule .info-schedule > div:last-child{
+    float:left;
+}
+.add-schedule .schedule{
+    overflow: auto;
+}
+.add-schedule .schedule tbody tr td input{
+    width:100px;
+    padding:2px;
+}
+.add-schedule .d{
+    padding:5px !important;
+    width:170px !important;
+}
+/*End Schedule Style*/
